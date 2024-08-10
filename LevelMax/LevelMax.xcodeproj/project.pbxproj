@@ -12,6 +12,7 @@
 		02ABBC992C670B0C00A03706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02ABBC982C670B0C00A03706 /* Assets.xcassets */; };
 		02ABBC9C2C670B0C00A03706 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02ABBC9B2C670B0C00A03706 /* Preview Assets.xcassets */; };
 		02ABBCA62C670B6100A03706 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 02ABBCA52C670B6100A03706 /* .gitignore */; };
+		61A4B1FF2C674C9400DCDCEF /* WaveAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A4B1FE2C674C9400DCDCEF /* WaveAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		02ABBC982C670B0C00A03706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02ABBC9B2C670B0C00A03706 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02ABBCA52C670B6100A03706 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		61A4B1FE2C674C9400DCDCEF /* WaveAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				02ABBC942C670B0B00A03706 /* LevelMaxApp.swift */,
 				02ABBC962C670B0B00A03706 /* ContentView.swift */,
+				61A4B1FE2C674C9400DCDCEF /* WaveAnimationView.swift */,
 				02ABBCA52C670B6100A03706 /* .gitignore */,
 				02ABBC982C670B0C00A03706 /* Assets.xcassets */,
 				02ABBC9A2C670B0C00A03706 /* Preview Content */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A4B1FF2C674C9400DCDCEF /* WaveAnimationView.swift in Sources */,
 				02ABBC972C670B0B00A03706 /* ContentView.swift in Sources */,
 				02ABBC952C670B0B00A03706 /* LevelMaxApp.swift in Sources */,
 			);
@@ -276,7 +280,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LevelMax/Preview Content\"";
-				DEVELOPMENT_TEAM = DBXHWJCYZK;
+				DEVELOPMENT_TEAM = TA9TKWGKS3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -305,7 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LevelMax/Preview Content\"";
-				DEVELOPMENT_TEAM = DBXHWJCYZK;
+				DEVELOPMENT_TEAM = TA9TKWGKS3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
