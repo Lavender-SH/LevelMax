@@ -11,7 +11,8 @@ import SwiftUI
 struct LevelMaxApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            WaveAnimationView(weeks: 4, injestedCaffeine: 4)
         }
     }
 }
