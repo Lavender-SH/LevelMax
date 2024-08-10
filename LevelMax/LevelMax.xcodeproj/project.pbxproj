@@ -12,9 +12,11 @@
 		02ABBC992C670B0C00A03706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02ABBC982C670B0C00A03706 /* Assets.xcassets */; };
 		02ABBC9C2C670B0C00A03706 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02ABBC9B2C670B0C00A03706 /* Preview Assets.xcassets */; };
 		02ABBCA62C670B6100A03706 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 02ABBCA52C670B6100A03706 /* .gitignore */; };
-		02ABBCA82C6740FD00A03706 /* Coffee.json in Resources */ = {isa = PBXBuildFile; fileRef = 02ABBCA72C6740FC00A03706 /* Coffee.json */; };
 		02ABBCAA2C67419B00A03706 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ABBCA92C67419B00A03706 /* LottieView.swift */; };
 		02ABBCAD2C67424500A03706 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 02ABBCAC2C67424500A03706 /* Lottie */; };
+		02ABBCB22C67587100A03706 /* OnboardingWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ABBCB12C67587100A03706 /* OnboardingWeek.swift */; };
+		02ABBCB62C67769300A03706 /* OnboardingLottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ABBCB52C67769300A03706 /* OnboardingLottie.swift */; };
+		02ABBCB82C6779E800A03706 /* 원두.json in Resources */ = {isa = PBXBuildFile; fileRef = 02ABBCB72C6779E700A03706 /* 원두.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +26,10 @@
 		02ABBC982C670B0C00A03706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02ABBC9B2C670B0C00A03706 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02ABBCA52C670B6100A03706 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		02ABBCA72C6740FC00A03706 /* Coffee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Coffee.json; sourceTree = "<group>"; };
 		02ABBCA92C67419B00A03706 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		02ABBCB12C67587100A03706 /* OnboardingWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingWeek.swift; sourceTree = "<group>"; };
+		02ABBCB52C67769300A03706 /* OnboardingLottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingLottie.swift; sourceTree = "<group>"; };
+		02ABBCB72C6779E700A03706 /* 원두.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "원두.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,11 @@
 		02ABBC932C670B0B00A03706 /* LevelMax */ = {
 			isa = PBXGroup;
 			children = (
+				02ABBCAE2C67554200A03706 /* Onboarding */,
 				02ABBC942C670B0B00A03706 /* LevelMaxApp.swift */,
-				02ABBC962C670B0B00A03706 /* ContentView.swift */,
-				02ABBCA92C67419B00A03706 /* LottieView.swift */,
 				02ABBCA52C670B6100A03706 /* .gitignore */,
 				02ABBC982C670B0C00A03706 /* Assets.xcassets */,
-				02ABBCA72C6740FC00A03706 /* Coffee.json */,
+				02ABBCB72C6779E700A03706 /* 원두.json */,
 				02ABBC9A2C670B0C00A03706 /* Preview Content */,
 			);
 			path = LevelMax;
@@ -76,6 +79,17 @@
 				02ABBC9B2C670B0C00A03706 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02ABBCAE2C67554200A03706 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				02ABBC962C670B0B00A03706 /* ContentView.swift */,
+				02ABBCB12C67587100A03706 /* OnboardingWeek.swift */,
+				02ABBCB52C67769300A03706 /* OnboardingLottie.swift */,
+				02ABBCA92C67419B00A03706 /* LottieView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				02ABBC9C2C670B0C00A03706 /* Preview Assets.xcassets in Resources */,
+				02ABBCB82C6779E800A03706 /* 원두.json in Resources */,
 				02ABBCA62C670B6100A03706 /* .gitignore in Resources */,
 				02ABBC992C670B0C00A03706 /* Assets.xcassets in Resources */,
-				02ABBCA82C6740FD00A03706 /* Coffee.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +172,8 @@
 			files = (
 				02ABBC972C670B0B00A03706 /* ContentView.swift in Sources */,
 				02ABBC952C670B0B00A03706 /* LevelMaxApp.swift in Sources */,
+				02ABBCB62C67769300A03706 /* OnboardingLottie.swift in Sources */,
+				02ABBCB22C67587100A03706 /* OnboardingWeek.swift in Sources */,
 				02ABBCAA2C67419B00A03706 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

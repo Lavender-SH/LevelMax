@@ -14,11 +14,12 @@ class LottieAnimationViewWrapper: UIView {
     private let animationView: LottieAnimationView
     
     override init(frame: CGRect) {
-        animationView = LottieAnimationView(name: "LottieView")
+        animationView = LottieAnimationView(name: "원두")
         
         super.init(frame: frame)
         
         setupAnimationView()
+        startAnimation() // 애니메이션을 초기화 시점에 자동으로 시작
     }
     
     required init?(coder: NSCoder) {
@@ -40,32 +41,23 @@ class LottieAnimationViewWrapper: UIView {
         ])
     }
     
-    func startAnimation(completion: @escaping () -> Void) {
-        animationView.play { finished in
-            if finished {
-                completion()
-            }
-        }
+    func startAnimation() {
+        animationView.play()
     }
 }
 
 struct LottieAnimationViewRepresentable: UIViewRepresentable {
-    //@Binding var isAnimating: Bool
     
     func makeUIView(context: Context) -> LottieAnimationViewWrapper {
         return LottieAnimationViewWrapper()
     }
     
     func updateUIView(_ uiView: LottieAnimationViewWrapper, context: Context) {
-//        if isAnimating {
-//            uiView.startAnimation {
-//                DispatchQueue.main.async {
-//                    self.isAnimating = false
-//                }
-//            }
-//        }
+        
     }
 }
+
+
 
 
 
